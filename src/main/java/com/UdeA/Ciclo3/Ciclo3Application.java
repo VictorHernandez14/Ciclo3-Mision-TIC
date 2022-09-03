@@ -6,7 +6,8 @@ import org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfi
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-@SpringBootApplication (exclude = {SecurityAutoConfiguration.class})
+
+@SpringBootApplication(exclude = {SecurityAutoConfiguration.class})
 @RestController
 public class Ciclo3Application {
 
